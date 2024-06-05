@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CI.TMS.Claim.API", "myTree.Webform.Claim.API\CI.TMS.Claim.API.csproj", "{F9908EC5-26FA-4612-94E2-99F87CAC417C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9908EC5-26FA-4612-94E2-99F87CAC417C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9908EC5-26FA-4612-94E2-99F87CAC417C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9908EC5-26FA-4612-94E2-99F87CAC417C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9908EC5-26FA-4612-94E2-99F87CAC417C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93ADD2D3-F8C3-4576-9B70-BB0BB6F622DB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/cifor-icraf-is
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = myTree.Webform.Claim.API\\CI.TMS.Claim.API.csproj
+		SccProjectName1 = myTree.Webform.Claim.API
+		SccLocalPath1 = myTree.Webform.Claim.API
+	EndGlobalSection
+EndGlobal

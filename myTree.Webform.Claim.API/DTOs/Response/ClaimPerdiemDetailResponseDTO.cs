@@ -1,0 +1,49 @@
+﻿namespace CI.TMS.Claim.API.DTOs.Response
+{
+    public class ClaimPerdiemDetailResponseDTO
+    {
+        public Guid Id { get; set; }
+        public Guid ClaimId { get; set; }
+        public Guid ClaimPerdiemId { get; set; }
+        public DateTime? Date { get; set; }
+        public string? CountryId { get; set; }
+        public string? CountryName { get; set; }
+        public string? CityId { get; set; }
+        public string? CityName { get; set; }
+        public string? CityOther { get; set; }
+        public decimal? PerdiemRate { get; set; }
+        public bool? B { get; set; }
+        public bool? L { get; set; }
+        public bool? D { get; set; }
+        public bool? I { get; set; }
+        public bool? F { get; set; }
+        public decimal? Amount { get; set; }
+        public decimal? BAmount { get; set; }
+        public decimal? LAmount { get; set; }
+        public decimal? DAmount { get; set; }
+        public decimal? IAmount { get; set; }
+        public decimal? Amount0 { get; set; }
+        public decimal? BAmount0 { get; set; }
+        public decimal? LAmount0 { get; set; }
+        public decimal? DAmount0 { get; set; }
+        public decimal? IAmount0 { get; set; }
+        public bool? BFinance { get; set; }
+        public bool? LFinance { get; set; }
+        public bool? DFinance { get; set; }
+        public bool? IFinance { get; set; }
+        public bool? FFinance { get; set; }
+        public decimal? AmountFinance { get; set; }
+        public decimal? BFinanceAmount { get; set; }
+        public decimal? LFinanceAmount { get; set; }
+        public decimal? DFinanceAmount { get; set; }
+        public decimal? IFinanceAmount { get; set; }
+        public decimal? AmountFinance0 { get; set; }
+        public decimal? BFinanceAmount0 { get; set; }
+        public decimal? LFinanceAmount0 { get; set; }
+        public decimal? DFinanceAmount0 { get; set; }
+        public decimal? IFinanceAmount0 { get; set; }
+        public string? Currency { get; set; }
+        public bool IsActive { get; set; }
+        public bool IsFinance { get; set; }
+    }
+}

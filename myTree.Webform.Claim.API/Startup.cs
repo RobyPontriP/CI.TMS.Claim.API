@@ -55,8 +55,8 @@ namespace CI.TMS.Claim.API
             app.UseEndpoints(endpoints =>
             {
                 endpoints
-                    //.MapControllers();//.RequireAuthorization("ApiScope");
-                    .MapControllers().RequireAuthorization("ApiScope");
+                    .MapControllers();//.RequireAuthorization("ApiScope");
+                    //.MapControllers().RequireAuthorization("ApiScope");
             });
         }
     }
